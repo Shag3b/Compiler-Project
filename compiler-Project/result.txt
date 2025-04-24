@@ -1,0 +1,35 @@
+	1: reserved word: read
+	1: ID, name= n
+	2: ID, name= sum
+	2: :=
+	2: NUM, val= 0
+	3: ID, name= i
+	3: :=
+	3: NUM, val= 1
+	4: ID, name= while
+	4: ID, name= i
+	4: <=
+	4: ID, name= n
+	4: ID, name= do
+	5: reserved word: if
+	5: ID, name= i
+	5: ID, name= mod
+	5: NUM, val= 2
+	5: =
+	5: NUM, val= 0
+	5: reserved word: then
+	6: ID, name= sum
+	6: :=
+	6: ID, name= sum
+	6: +
+	6: ID, name= i
+	7: reserved word: end
+	8: ID, name= i
+	8: :=
+	8: ID, name= i
+	8: +
+	8: NUM, val= 1
+	9: reserved word: end
+	10: reserved word: write
+	10: ID, name= sum
+	10: EOF
